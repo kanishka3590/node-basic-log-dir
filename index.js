@@ -1,0 +1,16 @@
+var log4js = require('log4js');
+var logger = log4js.getLogger();
+logger.level = 'debug';
+logger.debug("This is Debugging Level Message");
+logger.level = 'info';
+logger.info("This is Info Level Message");
+logger.level = 'trace';
+logger.trace("This is Trace Level Message");
+logger.level = 'debug';
+logger.debug("This is Debugging Message");
+logger.level = 'warn';
+logger.warn("This is warning Level Message");
+logger.level = 'error';
+logger.error("This is Error Level Message");
+logger.level = 'fatal';
+logger.fatal("This is Fatal Level Message");
